@@ -2,7 +2,7 @@
 echo "Programme werden nun installiert"
 
 #---snap---#
-sudo apt-get update
+sudo apt update
 sudo snap install spotify 
 sudo snap install atom --classic
 sudo snap install libreoffice 
@@ -10,7 +10,6 @@ sudo snap install telegram-desktop
 sudo snap install signal-desktop 
 sudo snap install --classic riseup-vpn
 sudo snap install keepassxc
-sudo snap install joplin
 #sudo snap install android -studio --classic
 #sudo snap install flutter --classic
 
@@ -21,30 +20,30 @@ sudo apt update
 sudo apt install veracrypt 
 sudo apt install cryptomator
 sudo apt install nextcloud-desktop  
-sudo apt-get install clamtk 
-sudo apt-get install clamtk-nautilus 
-sudo apt-get install clamtk-unofficial-sigs 
-sudo apt-get install grsync 
-sudo apt-get install gnome-mahjongg 
-sudo apt-get install virtualbox virtualbox-qt virtualbox-dkms 
+sudo apt install clamtk 
+sudo apt install clamtk-nautilus 
+sudo apt install clamtk-unofficial-sigs 
+sudo apt install grsync 
+sudo apt install gnome-mahjongg 
+sudo apt install virtualbox virtualbox-qt virtualbox-dkms 
 sudo apt install gnome-tweaks
-sudo apt-get install usb-creator-gtk 
-sudo apt-get install virtualbox-guest-additions-iso 
-sudo apt-get install pdfarranger 
-sudo apt-get install vlc 
-sudo apt-get install rmlint 
-sudo apt-get install neofetch 
-sudo apt-get install cmatrix
+sudo apt install usb-creator-gtk
+sudo apt install virtualbox-guest-additions-iso 
+sudo apt install pdfarranger 
+sudo apt install vlc 
+sudo apt install rmlint 
+sudo apt install neofetch 
+sudo apt install cmatrix
 sudo apt install hollywood 
 sudo apt install gnome-screenshot
-sudo apt-get install soundconverter
-sudo apt-get install audacious
-sudo apt-get install glances
-#sudo apt-get install hardinfo 
+sudo apt install soundconverter
+sudo apt install audacious
+sudo apt install glances
+sudo apt install hardinfo 
 
-sudo apt-get update
-sudo apt-get upgrade 
-sudo apt-get dist-upgrade 
+sudo apt update
+sudo apt upgrade 
+sudo apt dist-upgrade 
 sudo apt autoremove 
 sudo apt autoclean 
 sudo apt clean 
